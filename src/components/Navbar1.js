@@ -40,32 +40,32 @@ const Navbar1 = () => {
             <div className="modal-body">
               
             <form>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Էլեկտրոնային հասցե</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required/>
-                <div id="emailHelp" class="form-text">Ձեր տվյալները չեն տարածվելու</div>
+              <div className="mb-3">
+                <label for="exampleInputEmail1" className="form-label">Էլեկտրոնային հասցե</label>
+                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required/>
+                <div id="emailHelp" className="form-text">Ձեր տվյալները չեն տարածվելու</div>
               </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Գաղտնաբառ</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" required/>
+              <div className="mb-3">
+                <label for="exampleInputPassword1" className="form-label">Գաղտնաբառ</label>
+                <input type="password" className="form-control" id="exampleInputPassword1" required/>
               </div>
-              <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
-                <label class="form-check-label" for="exampleCheck1">Հիշել գաղտնաբառը</label>
+              <div className="mb-3 form-check">
+                <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
+                <label className="form-check-label" for="exampleCheck1">Հիշել գաղտնաբառը</label>
               </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-                <label class="form-check-label" for="flexRadioDefault1">
+              <div className="form-check">
+                <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                <label className="form-check-label" for="flexRadioDefault1">
                   Իգական
                 </label>
               </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
-                <label class="form-check-label" for="flexRadioDefault2">
+              <div className="form-check">
+                <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
+                <label className="form-check-label" for="flexRadioDefault2">
                   Արական
                 </label>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" className="btn btn-primary">Submit</button>
             </form>
 
 

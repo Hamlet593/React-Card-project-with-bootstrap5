@@ -40,3 +40,9 @@
 .carousel-item {
   height: 100%;
 }
+
+.test1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

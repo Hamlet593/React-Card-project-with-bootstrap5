@@ -4,6 +4,7 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import Navbar1 from './components/Navbar1';
 import Carousel from './components/Carousel';
 import Container from './components/Container';
+import Collapse from './components/Collapse';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar1 />
       <Carousel />
       <Container />
+      <Collapse />
     </>
   );
 }
