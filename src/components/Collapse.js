@@ -8,7 +8,7 @@ const Collapse = () => {
             <button className="btn btn-secondary me-2" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Բացել զույգերը</button>
             <button className="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Ընտրել բոլորը</button>
         </p>
-        <div className="row gy-4 test1">
+        <div className="row gy-4">
             <div className="col-md-6">
                 <div className="collapse multi-collapse" id="multiCollapseExample1">
                     <div className="card card-body d-flex">

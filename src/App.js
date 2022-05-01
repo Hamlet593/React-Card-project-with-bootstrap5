@@ -5,6 +5,7 @@ import Navbar1 from './components/Navbar1';
 import Carousel from './components/Carousel';
 import Container from './components/Container';
 import Collapse from './components/Collapse';
+import { Flex } from './components/Flex';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Carousel />
       <Container />
       <Collapse />
+      <Flex />
     </>
   );
 }
